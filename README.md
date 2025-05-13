@@ -1,11 +1,11 @@
 # 2.Proyecto_Javascript_SistemaVotacion_Modulo_N
 
-Proyecto: Creación de un sistema de votación en JavaScript
+# Proyecto: Creación de un sistema de votación en JavaScript
 
-Introducción:
+# Introducción:
 Con los conocimientos adquiridos en el Módulo 2 del Bootcamp, desarrollaremos un sistema de votación a través de un cuestionario interactivo de selección múltiple utilizando JavaScript.
 
-Propósito:
+# Propósito:
 El sistema de votación debe permitir a los usuarios crear encuestas, votar y visualizar los resultados en tiempo real.
 
 El desarrollo de este proyecto permitirá poner en práctica los siguientes conocimientos:
@@ -22,7 +22,7 @@ El desarrollo de este proyecto permitirá poner en práctica los siguientes cono
 
 6.Uso de GIT.
 
-Instrucciones para la programación en POO y PF
+# Instrucciones para la programación en POO y PF
 
 - El programa debe permitir a los usuarios crear encuestas con opciones de respuesta.
 
@@ -36,13 +36,13 @@ Instrucciones para la programación en POO y PF
 
 - La solución debe implementarse utilizando tanto POO como PF.
 
-El proyecto estará disponible en el siguiente repositorio de GitHub: 👉 https://github.com/KathyVenegas3
+El proyecto estará disponible en mi pagina de GitHub: 👉 https://github.com/KathyVenegas3
 
-Desarrollo del proyecto
+# Desarrollo del proyecto
 
 El sistema se enfoca en la creación de encuestas con dos opciones de respuesta por parte de los usuarios. La temática del cuestionario dependerá de la necesidad de cada usuario, quien podrá ingresar las preguntas y opciones correspondientes. El sistema no contiene preguntas ni respuestas predefinidas.
 
-Explicación de la solución con Programación Orientada a Objetos (POO)
+# Explicación de la solución con Programación Orientada a Objetos (POO)
 
 El código aplica conceptos básicos de POO en JavaScript, tales como:
 
@@ -66,19 +66,19 @@ Las clases Pregunta y Encuesta permiten modelar la estructura de los datos media
 
 El programa permite:
 
--Crear una encuesta con 8 preguntas obligatorias y dos opciones de respuesta (A y B).
+- Crear una encuesta con 8 preguntas obligatorias y dos opciones de respuesta (A y B).
 
--Permitir la votación una vez que la encuesta cumple con los requisitos.
+- Permitir la votación una vez que la encuesta cumple con los requisitos.
 
--Validar que existan exactamente 8 preguntas y dos alternativas válidas.
+- Validar que existan exactamente 8 preguntas y dos alternativas válidas.
 
--Verificar que el usuario conteste las 8 preguntas seleccionando solo una de las dos opciones.
+- Verificar que el usuario conteste las 8 preguntas seleccionando solo una de las dos opciones.
 
--Mostrar los resultados en tiempo real mediante la consola.
+- Mostrar los resultados en tiempo real mediante la consola.
 
--Generar una nueva votación basada en una encuesta anterior, incluso por otro usuario.
+- Generar una nueva votación basada en una encuesta anterior, incluso por otro usuario.
 
-Explicación de la solución con Programación Funcional (PF)
+# Explicación de la solución con Programación Funcional (PF)
 
 El código también aplica conceptos fundamentales de programación funcional en JavaScript:
 
@@ -104,26 +104,28 @@ Se utilizan funciones flecha y anónimas para encapsular lógica reutilizable, h
 
 Acciones logradas:
 
--Crear encuestas con 8 preguntas y dos opciones (A y B).
+- Crear encuestas con 8 preguntas y dos opciones (A y B).
 
--Permitir la votación bajo condiciones previamente definidas.
+- Permitir la votación bajo condiciones previamente definidas.
 
--Validar la estructura de la encuesta.
+- Validar la estructura de la encuesta.
 
--Exigir respuestas completas (una opción por pregunta).
+- Exigir respuestas completas (una opción por pregunta).
 
--Mostrar resultados acumulados en tiempo real por consola.
+- Mostrar resultados acumulados en tiempo real por consola.
 
--Posibilidad de generar nuevas votaciones con encuestas ya creadas.
+- Posibilidad de generar nuevas votaciones con encuestas ya creadas.
 
--Elementos funcionales observados en el código:
+- Elementos funcionales observados en el código:
 
--Tratamiento de funciones como valores.
+- Tratamiento de funciones como valores.
 
--Creación de funciones puras en ciertas secciones.
+- Creación de funciones puras en ciertas secciones.
 
--Uso limitado de inmutabilidad en la creación de objetos.
+- Uso limitado de inmutabilidad en la creación de objetos.
 
--Contención de efectos secundarios mediante funciones específicas.
+- Contención de efectos secundarios mediante funciones específicas.
 
--Uso de funciones de orden superior como addEventListener y forEach.
+- Uso de funciones de orden superior como addEventListener y forEach.
+
+# ¡Muchas Gracias! 
