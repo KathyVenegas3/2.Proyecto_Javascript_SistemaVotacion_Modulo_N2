@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Votación</title>
+    <style>
+        body { font-family: sans-serif; }
+        #encuesta-container, #votar-container { margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; }
+        label { display: block; margin-bottom: 5px; }
+        input[type="text"] { width: 100%; padding: 8px; margin-bottom: 10px; box-sizing: border-box; }
+        button { padding: 10px 15px; cursor: pointer; margin-right: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>Proyecto N°2 Modulo Javascript: Sistema de Votación PF</h1> <!--nombre de programa-->
+    
+    
+    <!--Instrucciones basicas de uso del programa para el usuario-->
+    <h2>Instrucciones:</h2>
+    <p>
+        1° Paso: Crear la encuesta ingresando 8 preguntas con dos opciones para votar.<br>
+        2° Paso: Votar por la opción de preferencia en cada pregunta.<br>
+        3° Paso: Ver los resultados en la consola del navegador ingresando con clic derecho a la opción "Inspeccionar" o haciendo clic en el botón F12.<br>
+        4° Paso: Si se desea votar de nuevo en la misma encuesta creada previamente, volver a seleccionar el botón "Realizar Votación".<br>
+        ¡Muchas gracias por tu participación!
+    </p>
+
+    <div id="encuesta-container">
+        <h2>Crear Encuesta</h2>
+        <div id="preguntas-container">
+            </div>
+        <button id="crear-encuesta-btn">Crear Encuesta</button>
+        <p id="mensaje-error" style="color: red;"></p>
+    </div>
+
+    <div id="votar-container" style="display: none;">
+        <h2>Votar en Encuesta</h2>
+        <p id="pregunta-actual"></p>
+        <label><input type="radio" name="opcion" value="A"> Opción A: <span id="opcion-a"></span></label>
+        <label><input type="radio" name="opcion" value="B"> Opción B: <span id="opcion-b"></span></label>
+        <button id="votar-btn">Votar</button>
+        <p id="mensaje-voto-error" style="color: red;"></p>
+        <button id="siguiente-pregunta-btn" disabled>Siguiente Pregunta</button>
+    </div>
+
+    <button id="realizar-votacion-btn" style="display: none;">Realizar Votación</button>
+
+    <script src="2SistemavotacionPF.js"></script>
+
+</body>
+</html>
